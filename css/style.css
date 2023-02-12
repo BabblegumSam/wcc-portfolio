@@ -1,13 +1,18 @@
-
-/*This is a comment in CSS*/
-
 body{
+    
     font-family: Verdana, sans-serif;
-    margin: 0;
+    margin-top: 2%;
+    background-size: 10%;
+
+    background-image: url(../assets/images/back.jpg); /*change the image to one of you choice */
+    background-repeat: repeat-x-y;
 }
 
 h1{
     font-size: 30px;
+    color: white;
+    outline-color: black;
+    outline-style: dashed;
     
 }
 
@@ -24,15 +29,20 @@ main{
     max-width:1400px; /* means it won't be larger than 1200px on larger screens */
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 3%;
+    padding: 1%;
 
 }
 
-footer{
+#footer{
     width:100%;
     min-height:100px;
-}
+    text-align: center;
 
+    background-color: white;
+    outline-offset: 10px;
+    outline-color: black;
+    outline-style: dashed;
+}
 
 /* Flex layouts are one of the easier ways to style responsive layouts that work on all devices */
 /* https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox */
@@ -65,7 +75,6 @@ footer{
     align-items: center;
     text-align: center;
     text-decoration: none;
-    color:#4f4f4f;
     transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
 }
 
@@ -75,6 +84,38 @@ footer{
 /* .flex-item a#my-special-id{
     background-image: url(../assets/images/custom-image-name.jpeg); 
 } */
+
+.flex-item a#map{
+    background-image: url(../assets/images/map.png); /*change the image to one of you choice */
+}
+
+.flex-item a#pool{
+    background-image: url(../assets/images/pool.png); /*change the image to one of you choice */
+}
+
+.flex-item a#wheel{
+    background-image: url(../assets/images/wheel.png); /*change the image to one of you choice */
+}
+
+.flex-item a#red{
+    background-image: url(../assets/images/red.png); /*change the image to one of you choice */
+}
+
+.flex-item a#organist{
+    background-image: url(../assets/images/the-organist.png); /*change the image to one of you choice */
+}
+
+.flex-item a#flow{
+    background-image: url(../assets/images/flow.png); /*change the image to one of you choice */
+}
+
+.flex-item a#fuck{
+    background-image: url(../assets/images/fuck.png); /*change the image to one of you choice */
+}
+
+.flex-item a#venice{
+    background-image: url(../assets/images/venice.png); /*change the image to one of you choice */
+}
 
 
 .flex-item a:hover{
